@@ -4,6 +4,10 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+// http requests
+import VueResource from 'vue-resource';
+Vue.use(VueResource);
+
 // Google maps
 import * as VueGoogleMaps from 'vue2-google-maps'
 Vue.use(VueGoogleMaps, {
